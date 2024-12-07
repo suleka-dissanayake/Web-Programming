@@ -1,0 +1,84 @@
+<html>
+<head>
+	<style>
+		table{
+		margin:auto;
+		}
+		.req::before {
+			content: "* ";
+			color:red;
+		}
+		textarea {
+			width:300px;
+			height:100px;
+			overflow-y:scroll;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<table>
+			<tr>
+				<td><span class='req'></span>Company : </td>
+				<td> <input type="text" required> </td>
+			</tr>
+			<tr>
+				<td><span class='req'></span>First Name : </td>
+				<td><input type="text" required></td>
+			</tr>
+			<tr>
+				<td><span class='req'></span>Last Name : </td>
+				<td><input type="text" required></td>
+			</tr>
+			<tr>
+				<td><span class='req'></span>Email Address : </td>
+				<td><input type="email" required></td>
+			</tr>
+			<tr>
+				<td><span class='req'></span>Title : </td>
+				<td><input type="text" required></td>
+			</tr>
+			<tr>
+				<td><span class='req'></span>Phone : </td>
+				<td><input type="tel" required></td>
+			</tr>
+			<tr>
+				<td>&nbsp; Cancel Registration : </td>
+				<td><input type="checkbox" checked></td>
+			</tr>
+			<tr>
+				<td><span class='req'></span>252 Training Session 2010 : </td>
+				<td>
+					<select name="date">
+						<option value="wd">--Select a date--</option>
+						<option value="wd">Option 1</option>
+						<option value="wd">Option 1</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><span class='req'></span>Job Functions : </td>
+				<td>
+					<input type="radio" name="function"> Campaign Management <br>
+					<input type="radio" name="function"> CRM Administration <br>
+					<input type="radio" name="function"> Email Deployment <br>
+					<input type="radio" name="function"> Partner <br>
+					<input type="radio" name="function"> Employee <br>
+				</td>
+			</tr>
+			<tr>
+				<td>Dietary Requirements : </td>
+				<td><input type="text"></td>
+			</tr>
+			<tr>
+				<td>Expectations : </td>
+				<td><textarea rows="5" cols="10"></textarea></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

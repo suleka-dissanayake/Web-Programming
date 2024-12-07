@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		* {
+		text-align:justify ;
+		font-weight:bold ;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Your Details</legend>
+			<ol>
+				<li>Name<input type="text" name='n' value="" placeholder="First and last name" required></li>
+				<li>Email <input type="email" name='em' value="" placeholder="example@domain.com" required></li>
+				<li>Phone <input type="tel" name='p' value="" placeholder="Eg : +447500000000" required></li>
+			</ol>
+		</fieldset>
+		<fieldset>
+			<legend>Delivery Address</legend>
+			<ol>
+				<li>Address <textarea rows='3' cols='15'></textarea></li>
+				<li>Post code <input type='int' name="pc" value="" maxlength="5" size="5" required></li>
+				<li>Country <input type='text' name='cntry' value="" required></li>
+			</ol>
+		</fieldset>
+		<fieldset>
+			<legend>Card Details</legend>
+				<ol>
+					<li><fieldset>
+						<legend>Card type</legend>
+						1. <input type="radio" name="card"> Visa <br>
+						2. <input type="radio" name="card"> Amex <br>
+						3. <input type="radio" name="card"> MasterCard <br>
+					</fieldset></li>
+				<li>Card Number <input type="int" name='cn' value="" maxlength="16" size="16" required></li>
+				<li>Name on card <input type="int" name='noc' value="" placeholder="Exact name as on the card" required></li>
+			</ol>
+		</fieldset><br>
+	<input type="button" value="Buy It !" style="border-radius:12px;">
+	</form>
+</body>
+</html>
