@@ -1,1 +1,61 @@
-
+<!doctype html>
+<html>
+<head>
+<style>
+	body {
+	background-image:url(back.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	}
+	
+	* {
+	font-family:Arial;
+	}
+	
+	button {
+	border-radius:5px;
+	}
+</style>
+</head>
+<body>
+	<h1>&nbsp;Contact form</h1>
+	<form>
+		<table>
+			<tr>
+				<td>Your Name</td>
+				<td><input type="text" name="fn" placeholder="First Name"></td>
+				<td><input type="text" name="ln" placeholder="Last Name"></td>
+			</tr>
+			<tr>
+				<td>Your Email</td>
+				<td colspan="2"><input type="email" name="em" placeholder="eg. hello@contact.net"></td>
+			</tr>
+			<tr>
+				<td>Phone*</td>
+				<td><input type="tel" placeholder="###" maxlength="3" size="3" required></td>
+				<td><input type="tel" placeholder="###" maxlength="3" size="3" required></td>
+				<td><input type="tel" placeholder="####" maxlength="4" size="4" required></td>
+			</tr>
+			<tr>
+				<td>Message Subject*</td>
+				<td colspan="2">
+					<select name="ms">
+						<option value="other" selected></option>
+						<option value=""></option>
+						<option value=""></option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Message*</td>
+				<td colspan="3"><textarea rows="5" cols="30" required></textarea></td>
+			</tr>
+			<tr>
+				<td>Verification*</td>
+				<td colspan="2"><input type="checkbox">I'm not a robot</td>
+			</tr>
+		</table><br><hr><br>
+		<button>SUBMIT FORM</button>
+	</form>
+</body>
+</html>
