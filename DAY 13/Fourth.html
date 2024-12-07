@@ -1,0 +1,40 @@
+<html>
+<head>
+	<style>
+		h1 {color:red;}
+	</style>
+</head>
+<body align="center" bgcolor="yellow">
+	<h1>Personal Details</h1>
+	<form>
+		Name: <input type="text" name="n"><br><br>
+		Password : <input type="password"><br><br>
+		Email : <input type="email"><br><br>
+		Gender : <input type="radio" name="gender">Male  
+						  <input type="radio" name="gender">Female <br><br>
+		Contact : <input type="tel"><br>
+		<h1 color="red">Educational Qualifications</h1>
+		Degree : 
+			<select name='degree'>
+				<option value="none" selected disabled>--Select Group--</option>
+				<option value="b">Bachelor</option>
+				<option value="m">Master</option>
+				<option value="p">Ph.D</option>
+			</select> <br><br>
+		Engineering : 
+			<select name='eng'>
+				<option value="none" selected disabled>--Select Group--</option>
+				<option value="cs">Computer Science</option>
+				<option value="el">Electronics</option>
+				<option value="me">Mechanical</option>
+			</select> <br><br>
+		Hobbles : 
+			<input type="checkbox" name="pl">Playing Chess 
+			<input type="checkbox" name="re">Reading Books <br><br>
+		<h1>Address</h1>
+		<textarea rows='5' cols='20'></textarea> <br><br>
+		Attach Resume : <input type="file"><br><br>
+		<input type="submit" value="SUBMIT">
+	</form>
+</body>
+</html>
