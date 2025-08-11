@@ -13,8 +13,7 @@ This repository contains foundational web development exercises created during m
 ## 🧩 Topics Covered
 
 - ✅ HTML5: Tags, Structure, Forms, Tables  
-- ✅ CSS3: Selectors, Box Model, Styling Techniques  
-- ✅ Page Layouts: Flexbox, Grid (Introductory)  
+- ✅ CSS3: Selectors, Box Model, Styling Techniques
 - ✅ Basic Responsive Design  
 - ✅ Mini Projects and Assignments  
 
