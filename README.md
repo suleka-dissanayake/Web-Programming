@@ -23,10 +23,4 @@ This repository contains foundational web development exercises created during m
 - HTML5  
 - CSS3  
 - VS Code  
-- Git & GitHub  
-
-## 🚀 How to Use
-
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/suleka-dissanayake/Web-Programming.git
+- Git & GitHub
